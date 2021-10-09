@@ -49,15 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChecaForcaSenha.cs" />
     <Compile Include="Frm_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_Principal.Designer.cs">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Uteis.cs" />
-    <Compile Include="ForcaDaSenhaEnum.cs" />
     <Compile Include="Frm_DemonstracaoKey.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +152,12 @@
     <Content Include="Imagens\Frm_ValidaCPF2.png" />
     <Content Include="Imagens\Frm_ValidaSenha.ico" />
     <Content Include="Imagens\Frm_ValidaSenha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CursoWindowsFormsBiblioteca\CursoWindowsFormsBiblioteca.csproj">
+      <Project>{2314c2d2-14b8-41d9-9269-bad2300c83ed}</Project>
+      <Name>CursoWindowsFormsBiblioteca</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

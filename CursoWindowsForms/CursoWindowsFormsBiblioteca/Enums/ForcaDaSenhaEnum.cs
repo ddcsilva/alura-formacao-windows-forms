@@ -1,4 +1,4 @@
-﻿namespace CursoWindowsForms
+﻿namespace CursoWindowsFormsBiblioteca
 {
     public enum ForcaDaSenhaEnum
     {
